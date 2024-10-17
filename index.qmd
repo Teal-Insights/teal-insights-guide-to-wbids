@@ -4,6 +4,16 @@
 
 This guide is designed to serve as a comprehensive resource for understanding and utilizing the World Bank's International Debt Statistics (IDS). It is structured to fulfill two primary objectives, each aimed at enhancing the reader's capacity to work effectively with this critical dataset.
 
+::: callout-important
+## Work in Progress
+
+This book is an active project, evolving in real-time. We're embracing an open development process, building it publicly using R & [Quarto](https://quarto.org/). All code, content, and revisions are [available on GitHub](https://github.com/Teal-Insights/teal_insights_guide_to_wbids) for transparency and collaboration.
+
+We've chosen this approach to engage with our readers, stakeholders, and the broader community as we develop both the book and the `{wbids}` R package. Your feedback is not just welcome – it's essential to making this resource as useful as possible.
+
+Feel free to follow our progress, suggest improvements, or even contribute directly through our GitHub repository. We're excited to build this resource with input from its future users!
+:::
+
 ## Part One: Foundations of IDS Data
 
 The initial section of this book is dedicated to providing readers with the necessary background to become informed consumers of IDS data. It encompasses:
