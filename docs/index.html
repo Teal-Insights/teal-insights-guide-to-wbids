@@ -228,6 +228,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <section id="preface" class="level1 unnumbered">
 <h1 class="unnumbered">Preface</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="teal_insights_logo.png" class="img-fluid figure-img" alt="Teal Insights Logo" width="1000"></p>
+</figure>
+</div>
 <p>This guide is designed to serve as a comprehensive resource for understanding and utilizing the World Bank’s International Debt Statistics (IDS). It is structured to fulfill two primary objectives, each aimed at enhancing the reader’s capacity to work effectively with this critical dataset.</p>
 <section id="part-one-foundations-of-ids-data" class="level2">
 <h2 class="anchored" data-anchor-id="part-one-foundations-of-ids-data">Part One: Foundations of IDS Data</h2>
@@ -253,7 +258,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="about-teal-insights" class="level2">
 <h2 class="anchored" data-anchor-id="about-teal-insights">About Teal Insights</h2>
 <p>This guide has been developed by Teal Insights, a research consultancy specializing in the application of modern data science tools and deep domain expertise to tackle global issues. Teal Insights extracts actionable insights from complex information and messy data. Our work primarily serves policymakers, investors, and non-governmental organizations, with a focus on international finance, sustainability, and policy analysis.</p>
-<p>Teal Insights’ approach combines modern data science tooling with deep domain expertise. By developing tools such as the {wbids} package and resources like this guide, we aim to broaden access to critical datasets and empower a diverse audience to engage in sophisticated analysis and informed decision-making.</p>
+<p>Teal Insights’ approach combines modern data science tooling with deep domain expertise about financial markets, global economics, and sustainability. By developing open-source tools such as the {wbids} R package and resources like this guide, we aim to broaden access to critical datasets and empower a diverse audience to engage in sophisticated analysis and informed decision-making.</p>
 <p>It is our hope that this guide will not only enhance readers’ understanding and utilization of the IDS data but also inspire innovative approaches to leveraging data for impactful research and decision-making in the fields of international finance and development.</p>
 <p>We invite you to explore the wealth of information contained within the International Debt Statistics and to discover new insights through its analysis.</p>
 <div class="callout-note callout callout-style-default callout-captioned">
@@ -437,49 +442,51 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Preface {.unnumbered}</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>This guide is designed to serve as a comprehensive resource for understanding and utilizing the World Bank's International Debt Statistics (IDS). It is structured to fulfill two primary objectives, each aimed at enhancing the reader's capacity to work effectively with this critical dataset.</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="al">![](teal_insights_logo.png)</span>{fig-alt="Teal Insights Logo" fig-align="center" width="1000"}</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## Part One: Foundations of IDS Data</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>This guide is designed to serve as a comprehensive resource for understanding and utilizing the World Bank's International Debt Statistics (IDS). It is structured to fulfill two primary objectives, each aimed at enhancing the reader's capacity to work effectively with this critical dataset.</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>The initial section of this book is dedicated to providing readers with the necessary background to become informed consumers of IDS data. It encompasses:</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">## Part One: Foundations of IDS Data</span></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="ss">1.  </span>A detailed overview of the data available within the IDS, including its scope, structure, and key variables.</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>The initial section of this book is dedicated to providing readers with the necessary background to become informed consumers of IDS data. It encompasses:</span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ss">2.  </span>An exploration of the types of policy-relevant questions that can be addressed using IDS data, with illustrative examples from recent economic research and policy analysis.</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ss">1.  </span>A detailed overview of the data available within the IDS, including its scope, structure, and key variables.</span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="ss">3.  </span>A thorough examination of the data creation process, from initial reporting through the Debtor Reporting System (DRS) to the final compilation and release of the IDS.</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="ss">2.  </span>An exploration of the types of policy-relevant questions that can be addressed using IDS data, with illustrative examples from recent economic research and policy analysis.</span>
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="ss">4.  </span>A critical discussion of the strengths and limitations inherent in the IDS dataset, enabling readers to approach the data with appropriate context and caveats.</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="ss">3.  </span>A thorough examination of the data creation process, from initial reporting through the Debtor Reporting System (DRS) to the final compilation and release of the IDS.</span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>This section aims to equip readers with a nuanced understanding of the IDS, ensuring they can interpret and apply the data with confidence and accuracy.</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ss">4.  </span>A critical discussion of the strengths and limitations inherent in the IDS dataset, enabling readers to approach the data with appropriate context and caveats.</span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="fu">## Part Two: Applied Analysis with the {wbids} R Package</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>This section aims to equip readers with a nuanced understanding of the IDS, ensuring they can interpret and apply the data with confidence and accuracy.</span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>The second section of this book focuses on practical application, introducing readers to the {wbids} R package. This tool has been developed to facilitate efficient analysis of IDS data within the R programming environment. This section covers:</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu">## Part Two: Applied Analysis with the {wbids} R Package</span></span>
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">1.  </span>Detailed instructions for accessing and manipulating IDS data using the {wbids} package.</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>The second section of this book focuses on practical application, introducing readers to the {wbids} R package. This tool has been developed to facilitate efficient analysis of IDS data within the R programming environment. This section covers:</span>
 <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="ss">2.  </span>Tutorials on conducting common analytical tasks and creating informative visualizations.</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="ss">1.  </span>Detailed instructions for accessing and manipulating IDS data using the {wbids} package.</span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="ss">3.  </span>Guidance on integrating IDS data with other relevant datasets to produce more comprehensive analyses.</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="ss">2.  </span>Tutorials on conducting common analytical tasks and creating informative visualizations.</span>
 <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>This practical component is designed to cater to R users of varying experience levels, providing a pathway to enhanced analytical capabilities in working with IDS data.</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">3.  </span>Guidance on integrating IDS data with other relevant datasets to produce more comprehensive analyses.</span>
 <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="fu">## About Teal Insights</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>This practical component is designed to cater to R users of varying experience levels, providing a pathway to enhanced analytical capabilities in working with IDS data.</span>
 <span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>This guide has been developed by Teal Insights, a research consultancy specializing in the application of modern data science tools and deep domain expertise to tackle global issues. Teal Insights extracts actionable insights from complex information and messy data. Our work primarily serves policymakers, investors, and non-governmental organizations, with a focus on international finance, sustainability, and policy analysis.</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="fu">## About Teal Insights</span></span>
 <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>Teal Insights' approach combines modern data science tooling with deep domain expertise. By developing tools such as the {wbids} package and resources like this guide, we aim to broaden access to critical datasets and empower a diverse audience to engage in sophisticated analysis and informed decision-making.</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>This guide has been developed by Teal Insights, a research consultancy specializing in the application of modern data science tools and deep domain expertise to tackle global issues. Teal Insights extracts actionable insights from complex information and messy data. Our work primarily serves policymakers, investors, and non-governmental organizations, with a focus on international finance, sustainability, and policy analysis.</span>
 <span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>It is our hope that this guide will not only enhance readers' understanding and utilization of the IDS data but also inspire innovative approaches to leveraging data for impactful research and decision-making in the fields of international finance and development.</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>Teal Insights' approach combines modern data science tooling with deep domain expertise about financial markets, global economics, and sustainability. By developing open-source tools such as the {wbids} R package and resources like this guide, we aim to broaden access to critical datasets and empower a diverse audience to engage in sophisticated analysis and informed decision-making.</span>
 <span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>We invite you to explore the wealth of information contained within the International Debt Statistics and to discover new insights through its analysis.</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>It is our hope that this guide will not only enhance readers' understanding and utilization of the IDS data but also inspire innovative approaches to leveraging data for impactful research and decision-making in the fields of international finance and development.</span>
 <span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>::: callout-note</span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="fu">## This is a product of Teal Insights, not the World Bank</span></span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>This book and the accompanying <span class="in">`{wbids}`</span> R package are products of Teal Insights. While they are designed to work with the World Bank's International Debt Statistics, they are independent creations and are not produced, endorsed, or officially supported by the World Bank Group. The authors have experience working with the World Bank as consultants, but this work is separate from those engagements. Users should be aware that while we strive for accuracy, the World Bank is the authoritative source for its data and any interpretations thereof.</span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>:::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>We invite you to explore the wealth of information contained within the International Debt Statistics and to discover new insights through its analysis.</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>::: callout-note</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="fu">## This is a product of Teal Insights, not the World Bank</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>This book and the accompanying <span class="in">`{wbids}`</span> R package are products of Teal Insights. While they are designed to work with the World Bank's International Debt Statistics, they are independent creations and are not produced, endorsed, or officially supported by the World Bank Group. The authors have experience working with the World Bank as consultants, but this work is separate from those engagements. Users should be aware that while we strive for accuracy, the World Bank is the authoritative source for its data and any interpretations thereof.</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>:::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

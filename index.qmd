@@ -1,5 +1,7 @@
 # Preface {.unnumbered}
 
+![](teal_insights_logo.png){fig-alt="Teal Insights Logo" fig-align="center" width="1000"}
+
 This guide is designed to serve as a comprehensive resource for understanding and utilizing the World Bank's International Debt Statistics (IDS). It is structured to fulfill two primary objectives, each aimed at enhancing the reader's capacity to work effectively with this critical dataset.
 
 ## Part One: Foundations of IDS Data
@@ -32,7 +34,7 @@ This practical component is designed to cater to R users of varying experience l
 
 This guide has been developed by Teal Insights, a research consultancy specializing in the application of modern data science tools and deep domain expertise to tackle global issues. Teal Insights extracts actionable insights from complex information and messy data. Our work primarily serves policymakers, investors, and non-governmental organizations, with a focus on international finance, sustainability, and policy analysis.
 
-Teal Insights' approach combines modern data science tooling with deep domain expertise. By developing tools such as the {wbids} package and resources like this guide, we aim to broaden access to critical datasets and empower a diverse audience to engage in sophisticated analysis and informed decision-making.
+Teal Insights' approach combines modern data science tooling with deep domain expertise about financial markets, global economics, and sustainability. By developing open-source tools such as the {wbids} R package and resources like this guide, we aim to broaden access to critical datasets and empower a diverse audience to engage in sophisticated analysis and informed decision-making.
 
 It is our hope that this guide will not only enhance readers' understanding and utilization of the IDS data but also inspire innovative approaches to leveraging data for impactful research and decision-making in the fields of international finance and development.
 
