@@ -38,4 +38,8 @@ It is our hope that this guide will not only enhance readers' understanding and 
 
 We invite you to explore the wealth of information contained within the International Debt Statistics and to discover new insights through its analysis.
 
-# 
+::: callout-note
+## This is a product of Teal Insights, not the World Bank
+
+This book and the accompanying `{wbids}` R package are products of Teal Insights. While they are designed to work with the World Bank's International Debt Statistics, they are independent creations and are not produced, endorsed, or officially supported by the World Bank Group. The authors have experience working with the World Bank as consultants, but this work is separate from those engagements. Users should be aware that while we strive for accuracy, the World Bank is the authoritative source for its data and any interpretations thereof.
+:::
