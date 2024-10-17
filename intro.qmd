@@ -1,0 +1,45 @@
+# Introduction
+
+## Introduction to the International Debt Statistics
+
+The World Bank's International Debt Statistics (IDS) is a comprehensive resource for understanding external debt in low- and middle-income countries. This guide will introduce you to the IDS dataset and demonstrate how the `{wbids}` R package can help you leverage this valuable information.
+
+## What is the International Debt Statistics?
+
+The IDS is the most authoritative and comprehensive publicly available database on the external debt of low- and middle-income countries. It provides a detailed view of debt stocks, flows, and key debt ratios, offering unparalleled insights into the financial health of developing economies.
+
+## Origins and Development
+
+The World Bank has been meticulously collecting this data since the 1950s. The information is gathered primarily from debtor countries through the World Bank's Debtor Reporting System (DRS), supplemented with data from creditors and market sources. This long-standing effort ensures a rich historical perspective on debt trends.
+
+## Accessibility and Updates
+
+The IDS is updated annually, typically in December, and is freely accessible through the World Bank's website. The `{wbids}` R package streamlines the process of working with this extensive dataset, making complex analyses more accessible to researchers and practitioners.
+
+## Significance for Stakeholders
+
+The IDS is a valuable resource for a wide range of professionals, including:
+
+-   Emerging market investors
+-   International financial institution economists
+-   Finance ministry officials
+-   Academic researchers
+-   Policymakers in both debtor and creditor countries
+
+It provides crucial data for assessing debt sustainability, informing policy decisions, and understanding global financial flows.
+
+## Key Insights Enabled by IDS Data
+
+The IDS dataset allows for a range of important analyses. Here are some examples of the insights you can gain:
+
+1.  **Evolution of Creditor Composition**: The IDS provides detailed breakdowns of debt by creditor type (bilateral, multilateral, private). This allows you to track the rise of new creditors, such as China, and analyze how the creditor landscape has shifted over time.
+
+2.  **Comprehensive Debt Picture**: By including data on both public and publicly guaranteed debt as well as private non-guaranteed debt, the IDS enables a more complete assessment of a country's external liabilities. This comprehensive view can reveal potential hidden risks, such as the debts of state-owned enterprises.
+
+3.  **Market Access Trends**: The IDS includes data on bond issuances, allowing you to track how low- and middle-income countries' access to international capital markets has evolved. This can provide insights into changing financing strategies and risk profiles.
+
+4.  **Interest Rate Risk Exposure**: The dataset provides information on the composition of debt in terms of interest rate structure (fixed vs. variable). This allows for analysis of countries' vulnerability to global interest rate fluctuations.
+
+5.  **Debt Service Burden Analysis**: By combining data on debt stocks, debt service, exports, and GNI, the IDS enables the calculation of key debt burden indicators. This allows for assessment of how debt service requirements compare to a country's economic output and ability to generate foreign exchange.
+
+Through our R package, you'll be able to easily access and analyze these aspects of the IDS data, unlocking valuable insights into the complex world of international debt. In the following sections, we'll guide you through how to use the package to explore these dimensions and more.

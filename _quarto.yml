@@ -1,0 +1,27 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Teal Insights' Guide to Working with the World Bank International Debt Statistics"
+  author: "Teal Emery & The Teal Insights Team"
+  date: "10/16/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cerulean
+    code-fold: true
+    code-summary: "Show the code"
+    code-tools: true
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
