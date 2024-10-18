@@ -1,4 +1,4 @@
-# Foundations of IDS Data
+# Part 1: Foundations of IDS Data
 
 The initial section of this book is dedicated to providing readers with the necessary background to become informed consumers of IDS data. It encompasses:
 
