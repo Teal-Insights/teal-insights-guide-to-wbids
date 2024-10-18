@@ -49,9 +49,16 @@
     "text": "1.6 Key Insights Enabled by IDS Data\nThe IDS dataset allows for a range of important analyses. Here are some examples of the insights you can gain:\n\nEvolution of Creditor Composition: The IDS provides detailed breakdowns of debt by creditor type (bilateral, multilateral, private). This allows you to track the rise of new creditors, such as China, and analyze how the creditor landscape has shifted over time.\nComprehensive Debt Picture: By including data on both public and publicly guaranteed debt as well as private non-guaranteed debt, the IDS enables a more complete assessment of a country’s external liabilities. This comprehensive view can reveal potential hidden risks, such as the debts of state-owned enterprises.\nMarket Access Trends: The IDS includes data on bond issuances, allowing you to track how low- and middle-income countries’ access to international capital markets has evolved. This can provide insights into changing financing strategies and risk profiles.\nInterest Rate Risk Exposure: The dataset provides information on the composition of debt in terms of interest rate structure (fixed vs. variable). This allows for analysis of countries’ vulnerability to global interest rate fluctuations.\nDebt Service Burden Analysis: By combining data on debt stocks, debt service, exports, and GNI, the IDS enables the calculation of key debt burden indicators. This allows for assessment of how debt service requirements compare to a country’s economic output and ability to generate foreign exchange.\n\nThrough our R package, you’ll be able to easily access and analyze these aspects of the IDS data, unlocking valuable insights into the complex world of international debt. In the following sections, we’ll guide you through how to use the package to explore these dimensions and more."
   },
   {
+    "objectID": "part1_foundations.html",
+    "href": "part1_foundations.html",
+    "title": "Foundations of IDS Data",
+    "section": "",
+    "text": "A detailed overview of the data available within the IDS, including its scope, structure, and key variables.\nAn exploration of the types of policy-relevant questions that can be addressed using IDS data, with illustrative examples from recent economic research and policy analysis.\nA thorough examination of the data creation process, from initial reporting through the Debtor Reporting System (DRS) to the final compilation and release of the IDS.\nA critical discussion of the strengths and limitations inherent in the IDS dataset, enabling readers to approach the data with appropriate context and caveats.\n\nThis section aims to equip readers with a nuanced understanding of the IDS, ensuring they can interpret and apply the data with confidence and accuracy."
+  },
+  {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "2  Summary",
+    "title": "9  Summary",
     "section": "",
     "text": "Show the code\n1 + 1\n\n\n[1] 2"
   }

@@ -1,0 +1,13 @@
+# Foundations of IDS Data
+
+The initial section of this book is dedicated to providing readers with the necessary background to become informed consumers of IDS data. It encompasses:
+
+1.  A detailed overview of the data available within the IDS, including its scope, structure, and key variables.
+
+2.  An exploration of the types of policy-relevant questions that can be addressed using IDS data, with illustrative examples from recent economic research and policy analysis.
+
+3.  A thorough examination of the data creation process, from initial reporting through the Debtor Reporting System (DRS) to the final compilation and release of the IDS.
+
+4.  A critical discussion of the strengths and limitations inherent in the IDS dataset, enabling readers to approach the data with appropriate context and caveats.
+
+This section aims to equip readers with a nuanced understanding of the IDS, ensuring they can interpret and apply the data with confidence and accuracy.
