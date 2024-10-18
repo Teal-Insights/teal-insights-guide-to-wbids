@@ -1,1 +1,90 @@
-# A Detailed Overview of the IDS
+# Understanding the International Debt Statistics Dataset
+
+The International Debt Statistics (IDS) dataset is a comprehensive resource for information on the external debt of low- and middle-income countries. This chapter provides an overview of the dataset's scope, structure, and key variables.
+
+## Scope of the IDS
+
+The IDS covers 121 low- and middle-income countries that report public and publicly guaranteed external debt to the World Bank's Debtor Reporting System (DRS). It includes data on:
+
+1.  External debt stocks
+2.  Debt flows (disbursements and repayments)
+3.  Debt service
+4.  Creditor composition
+5.  Key debt ratios
+
+The dataset provides annual data, with historical series going back to 1970 for most countries.
+
+## Structure of the IDS
+
+The IDS is structured around several main tables:
+
+1.  Summary tables: Aggregate data for all reporting countries
+2.  Country tables: Detailed data for each reporting country
+3.  Regional tables: Aggregates for geographic regions
+4.  Income group tables: Aggregates by World Bank income classification
+
+Each table contains time series data for various debt indicators.
+
+## Key Variables
+
+The IDS includes a wide range of variables. Some of the most important are:
+
+1.  **External debt stocks**: Total external debt, including long-term, short-term, and use of IMF credit
+
+    -   Long-term external debt
+    -   Public and publicly guaranteed debt
+    -   Private non-guaranteed debt
+    -   Short-term external debt
+    -   Use of IMF credit
+
+2.  **Debt flows**:
+
+    -   Disbursements
+    -   Principal repayments
+    -   Net flows
+    -   Interest payments
+    -   Net transfers
+
+3.  **Creditor composition**:
+
+    -   Multilateral creditors (e.g., World Bank, regional development banks)
+    -   Bilateral creditors
+    -   Private creditors (bonds, commercial banks)
+
+4.  **Currency composition**: Breakdown of debt by currency of repayment
+
+5.  **Maturity structure**: Short-term vs. long-term debt
+
+6.  **Debt ratios**:
+
+    -   External debt stocks to exports (%)
+    -   External debt stocks to GNI (%)
+    -   Debt service to exports (%)
+    -   Short-term to total external debt (%)
+    -   Multilateral to external debt stocks (%)
+
+7.  **Other economic indicators**:
+
+    -   GNI
+    -   GDP
+    -   Exports of goods, services, and primary income
+    -   Imports of goods, services, and primary income
+    -   International reserves
+
+## Special Features
+
+The IDS also includes some special features:
+
+1.  **Quarterly External Debt Statistics (QEDS)**: More frequent data for a subset of countries
+2.  **Debt forgiveness data**: Information on debt relief initiatives like HIPC
+3.  **Projected payments**: Estimates of future debt service based on existing debt
+
+## Data Limitations
+
+While comprehensive, users should be aware of some limitations:
+
+1.  Data are self-reported by countries and may have inconsistencies
+2.  Coverage of private non-guaranteed debt can be incomplete for some countries
+3.  The dataset doesn't capture all forms of sovereign liabilities (e.g., domestic debt)
+
+Understanding these variables and the structure of the IDS is crucial for effective analysis. In the next chapter, we'll explore how this data can be used to answer important policy questions.

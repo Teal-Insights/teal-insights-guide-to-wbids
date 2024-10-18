@@ -1,1 +1,61 @@
-# Policy Relevant Questions
+# Policy-Relevant Applications of IDS Data
+
+The International Debt Statistics (IDS) dataset is a powerful tool for addressing a wide range of policy-relevant questions in international finance and development economics. This chapter explores some key areas where IDS data can provide valuable insights, with examples from recent research and policy analysis.
+
+## 1. Assessing Debt Sustainability
+
+One of the primary uses of IDS data is in assessing the debt sustainability of low- and middle-income countries.
+
+Example: Horn, Reinhart, and Trebesch (2021) used IDS data to analyze China's overseas lending and its implications for debt sustainability in developing countries. They found that debt to China has risen from almost zero in 2000 to more than 15% of GDP in some countries, raising concerns about debt sustainability.
+
+Policy relevance: These assessments are crucial for both debtor countries in managing their economies and for creditors and international financial institutions in making lending decisions.
+
+## 2. Analyzing the Changing Landscape of Creditors
+
+IDS data allows researchers to track shifts in the composition of creditors over time.
+
+Example: Cerutti, Obstfeld, and Zhou (2021) used IDS data to document the rise of non-Paris Club lenders, particularly China, in sovereign lending to developing countries. They found that these new creditors often lend on different terms than traditional creditors, potentially complicating debt restructuring efforts.
+
+Policy relevance: Understanding the evolving creditor landscape is crucial for coordinating debt relief efforts and designing effective international financial architecture.
+
+## 3. Evaluating the Impact of Debt Relief Initiatives
+
+IDS data can be used to assess the effectiveness of international debt relief programs.
+
+Example: Cheng, Diaz-Cassou, and Erce (2018) used IDS data to evaluate the long-term effects of debt relief under the Heavily Indebted Poor Countries (HIPC) Initiative. They found that while HIPC reduced debt burdens, it had limited impact on economic growth in recipient countries.
+
+Policy relevance: These analyses inform the design of future debt relief initiatives and help policymakers understand the long-term consequences of debt forgiveness.
+
+## 4. Investigating the Relationship Between Debt and Development Outcomes
+
+Researchers can combine IDS data with other development indicators to explore how debt levels relate to various economic and social outcomes.
+
+Example: Presbitero (2012) used IDS data in conjunction with education statistics to examine the relationship between public debt and investment in education in low-income countries. He found evidence that high debt service crowds out public education expenditure.
+
+Policy relevance: Such studies help policymakers understand the trade-offs involved in debt accumulation and inform decisions about borrowing and public spending priorities.
+
+## 5. Analyzing Debt Transparency and Hidden Debts
+
+IDS data, particularly when combined with other sources, can shed light on issues of debt transparency.
+
+Example: Horn, Reinhart, and Trebesch (2019) compared IDS data with other sources to identify "hidden debts" in developing countries, particularly related to China's Belt and Road Initiative. They estimated that about half of China's overseas loans to developing countries may be "hidden".
+
+Policy relevance: These analyses are crucial for improving debt transparency, which is essential for accurate risk assessment and effective debt management.
+
+## 6. Studying the Cyclicality of Sovereign Borrowing
+
+IDS data allows researchers to examine how countries' borrowing patterns relate to economic cycles.
+
+Example: Panizza, Sturzenegger, and Zettelmeyer (2009) used IDS data to analyze the procyclicality of borrowing in developing countries. They found that many countries borrow more during good times, potentially exacerbating economic volatility.
+
+Policy relevance: Understanding these patterns can help in designing countercyclical fiscal policies and improving macroeconomic stability.
+
+## 7. Examining the Effects of Global Economic Shocks
+
+IDS data can be used to study how global economic events impact developing countries' debt situations.
+
+Example: Kose et al. (2021) used IDS data to analyze the impact of the COVID-19 pandemic on debt in emerging market and developing economies. They found that the pandemic led to the largest single-year surge in global debt in decades.
+
+Policy relevance: These analyses help policymakers understand and prepare for the impacts of global economic shocks on debt dynamics.
+
+In conclusion, the IDS dataset is a versatile tool that enables researchers and policymakers to address a wide range of critical questions in international finance and development economics. By providing comprehensive, long-term data on external debt, it supports evidence-based policymaking and contributes to our understanding of global economic dynamics.
