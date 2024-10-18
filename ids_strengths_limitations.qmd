@@ -4,7 +4,7 @@ The International Debt Statistics (IDS) is a vital resource for understanding gl
 
 ## Strengths of the IDS
 
-### 1. Comprehensive Coverage
+### Comprehensive Coverage
 
 -   Includes data from 121 low- and middle-income countries
 -   Covers both public and private external debt
@@ -12,7 +12,7 @@ The International Debt Statistics (IDS) is a vital resource for understanding gl
 
 Significance: This broad coverage allows for robust cross-country comparisons and long-term trend analysis.
 
-### 2. Granularity
+### Granularity
 
 -   Loan-by-loan data for public and publicly guaranteed debt
 -   Detailed breakdown by creditor type (multilateral, bilateral, private)
@@ -20,21 +20,21 @@ Significance: This broad coverage allows for robust cross-country comparisons an
 
 Significance: This level of detail enables nuanced analysis of debt composition and terms.
 
-### 3. Standardized Reporting
+### Standardized Reporting
 
 -   Uses internationally agreed definitions and methodologies
 -   Aligns with other international statistical standards (e.g., Balance of Payments Manual)
 
 Significance: Enhances comparability across countries and with other datasets.
 
-### 4. Regular Updates and Quality Control
+### Regular Updates and Quality Control
 
 -   Annual updates with interim revisions
 -   Rigorous validation process involving cross-checks with other sources
 
 Significance: Improves data reliability and allows for timely analysis.
 
-### 5. Integration with Other Economic Indicators
+### Integration with Other Economic Indicators
 
 -   Includes related economic data (e.g., GNI, exports)
 -   Provides calculated debt ratios
@@ -43,63 +43,63 @@ Significance: Facilitates comprehensive debt sustainability analysis.
 
 ## Limitations and Caveats
 
-### 1. Reliance on Self-Reporting
+### Reliance on Self-Reporting
 
 -   Data primarily comes from country authorities
 -   Quality depends on countries' capacity and willingness to report accurately
 
 Caveat: There may be inconsistencies or gaps in reporting across countries.
 
-### 2. Incomplete Coverage of Private Non-Guaranteed Debt
+### Incomplete Coverage of Private Non-Guaranteed Debt
 
 -   Relies on aggregate reporting, which may be less comprehensive
 -   Some countries have limited capacity to track private sector borrowing
 
 Caveat: Total external debt may be underestimated, particularly for countries with large private sectors.
 
-### 3. Limited Coverage of Domestic Debt
+### Limited Coverage of Domestic Debt
 
 -   Focuses primarily on external debt
 -   Domestic debt is not systematically included
 
 Caveat: May not provide a complete picture of a country's total public debt burden.
 
-### 4. Challenges in Capturing New Debt Instruments
+### Challenges in Capturing New Debt Instruments
 
 -   May not fully reflect newer forms of debt (e.g., certain types of collateralized lending)
 -   Can lag in incorporating innovative financing structures
 
 Caveat: Could underestimate total debt or miss important features of a country's debt profile.
 
-### 5. Difficulty in Capturing 'Hidden' Debt
+### Difficulty in Capturing 'Hidden' Debt
 
 -   Relies on officially reported data
 -   May not capture off-balance-sheet liabilities or certain contingent liabilities
 
 Caveat: Actual debt burdens could be higher than reported, especially in countries with less transparent fiscal practices.
 
-### 6. Time Lag in Reporting
+### Time Lag in Reporting
 
 -   Annual data typically released with a 9-10 month lag
 -   Some countries may have longer reporting delays
 
 Caveat: May not reflect the most current debt situation, particularly in rapidly changing economic environments.
 
-### 7. Challenges with Exchange Rate Conversions
+### Challenges with Exchange Rate Conversions
 
 -   Debt reported in US dollars, requiring conversion from original currencies
 -   Exchange rate fluctuations can affect reported debt levels
 
 Caveat: Changes in reported debt stock may reflect currency movements rather than actual borrowing or repayment.
 
-### 8. Inconsistencies in Creditor Classification
+### Inconsistencies in Creditor Classification
 
 -   Classification of creditors can be complex, especially for non-traditional lenders
 -   Countries may classify similar creditors differently
 
 Caveat: Creditor composition analysis should be approached with caution, particularly for cross-country comparisons.
 
-### 9. Limited Information on Debt Terms
+### Limited Information on Debt Terms
 
 -   While basic terms are reported, full details of debt contracts are not always available
 -   Information on collateral and other specific conditions may be limited

@@ -2,7 +2,7 @@
 
 Understanding the process by which the International Debt Statistics (IDS) are created is crucial for interpreting and using the data effectively. This chapter provides a detailed look at the journey of debt data from initial reporting to final publication.
 
-## 1. The Debtor Reporting System (DRS)
+## The Debtor Reporting System (DRS)
 
 The foundation of the IDS is the World Bank's Debtor Reporting System (DRS), established in 1951.
 
@@ -23,7 +23,7 @@ The foundation of the IDS is the World Bank's Debtor Reporting System (DRS), est
 -   Principal and interest payments
 -   Debt restructuring information
 
-## 2. Data Submission Process
+## Data Submission Process
 
 Countries typically follow these steps to submit data:
 
@@ -33,7 +33,7 @@ Countries typically follow these steps to submit data:
 
 Frequency: New commitments are reported quarterly, while stocks and flows are reported annually.
 
-## 3. Data Validation and Quality Control
+## Data Validation and Quality Control
 
 Upon receipt, World Bank staff perform several checks:
 
@@ -42,7 +42,7 @@ Upon receipt, World Bank staff perform several checks:
 3.  Follow-up: Querying countries about discrepancies or unusual patterns
 4.  Historical reconciliation: Ensuring consistency of time series data
 
-## 4. Data Enrichment
+## Data Enrichment
 
 The World Bank enhances the raw DRS data in several ways:
 
@@ -51,7 +51,7 @@ The World Bank enhances the raw DRS data in several ways:
 3.  Estimating missing data where necessary
 4.  Calculating derived indicators (e.g., debt ratios)
 
-## 5. Integration with Other Datasets
+## Integration with Other Datasets
 
 To provide a comprehensive picture, IDS data is integrated with:
 
@@ -59,7 +59,7 @@ To provide a comprehensive picture, IDS data is integrated with:
 -   IMF Balance of Payments data (for exports, imports)
 -   World Bank Global Economic Monitor (for reserves data)
 
-## 6. Aggregation and Analysis
+## Aggregation and Analysis
 
 The World Bank team then:
 
@@ -68,7 +68,7 @@ The World Bank team then:
 3.  Analyzes trends and patterns in the data
 4.  Prepares analytical text and visualizations for the IDS report
 
-## 7. Review and Verification
+## Review and Verification
 
 Before publication, the data undergoes several rounds of review:
 
@@ -76,7 +76,7 @@ Before publication, the data undergoes several rounds of review:
 2.  Cross-departmental review within the World Bank
 3.  Review by country authorities, who have the opportunity to comment on their data
 
-## 8. Publication and Dissemination
+## Publication and Dissemination
 
 The final steps in the process are:
 
@@ -85,14 +85,14 @@ The final steps in the process are:
 3.  Creation of data visualizations and other supplementary materials
 4.  Official release, typically in October each year
 
-## 9. Ongoing Updates
+## Ongoing Updates
 
 Even after publication, the process continues:
 
 -   Data revisions are incorporated as countries provide updated information
 -   The online database is refreshed periodically (typically December and April)
 
-## 10. Challenges in the Process
+## Challenges in the Process
 
 Several challenges can affect the data creation process:
 
@@ -101,7 +101,7 @@ Several challenges can affect the data creation process:
 3.  Difficulties in capturing all forms of debt, especially newer instruments
 4.  Balancing timeliness with comprehensiveness and accuracy
 
-## 11. Recent Improvements
+## Recent Improvements
 
 The World Bank has made several enhancements to the process in recent years:
 

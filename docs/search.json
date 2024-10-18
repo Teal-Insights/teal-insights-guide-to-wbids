@@ -51,7 +51,7 @@
   {
     "objectID": "part1_foundations.html",
     "href": "part1_foundations.html",
-    "title": "Foundations of IDS Data",
+    "title": "Part 1: Foundations of IDS Data",
     "section": "",
     "text": "A detailed overview of the data available within the IDS, including its scope, structure, and key variables.\nAn exploration of the types of policy-relevant questions that can be addressed using IDS data, with illustrative examples from recent economic research and policy analysis.\nA thorough examination of the data creation process, from initial reporting through the Debtor Reporting System (DRS) to the final compilation and release of the IDS.\nA critical discussion of the strengths and limitations inherent in the IDS dataset, enabling readers to approach the data with appropriate context and caveats.\n\nThis section aims to equip readers with a nuanced understanding of the IDS, ensuring they can interpret and apply the data with confidence and accuracy."
   },
@@ -108,50 +108,57 @@
     "objectID": "ids_policy_relevant_qs.html#assessing-debt-sustainability",
     "href": "ids_policy_relevant_qs.html#assessing-debt-sustainability",
     "title": "3  Policy-Relevant Applications of IDS Data",
-    "section": "3.1 1. Assessing Debt Sustainability",
-    "text": "3.1 1. Assessing Debt Sustainability\nOne of the primary uses of IDS data is in assessing the debt sustainability of low- and middle-income countries.\nExample: Horn, Reinhart, and Trebesch (2021) used IDS data to analyze China’s overseas lending and its implications for debt sustainability in developing countries. They found that debt to China has risen from almost zero in 2000 to more than 15% of GDP in some countries, raising concerns about debt sustainability.\nPolicy relevance: These assessments are crucial for both debtor countries in managing their economies and for creditors and international financial institutions in making lending decisions."
+    "section": "3.1 Assessing Debt Sustainability",
+    "text": "3.1 Assessing Debt Sustainability\nOne of the primary uses of IDS data is in assessing the debt sustainability of low- and middle-income countries.\nExample: Horn, Reinhart, and Trebesch (2021) used IDS data to analyze China’s overseas lending and its implications for debt sustainability in developing countries. They found that debt to China has risen from almost zero in 2000 to more than 15% of GDP in some countries, raising concerns about debt sustainability.\nPolicy relevance: These assessments are crucial for both debtor countries in managing their economies and for creditors and international financial institutions in making lending decisions."
   },
   {
     "objectID": "ids_policy_relevant_qs.html#analyzing-the-changing-landscape-of-creditors",
     "href": "ids_policy_relevant_qs.html#analyzing-the-changing-landscape-of-creditors",
     "title": "3  Policy-Relevant Applications of IDS Data",
-    "section": "3.2 2. Analyzing the Changing Landscape of Creditors",
-    "text": "3.2 2. Analyzing the Changing Landscape of Creditors\nIDS data allows researchers to track shifts in the composition of creditors over time.\nExample: Cerutti, Obstfeld, and Zhou (2021) used IDS data to document the rise of non-Paris Club lenders, particularly China, in sovereign lending to developing countries. They found that these new creditors often lend on different terms than traditional creditors, potentially complicating debt restructuring efforts.\nPolicy relevance: Understanding the evolving creditor landscape is crucial for coordinating debt relief efforts and designing effective international financial architecture."
+    "section": "3.2 Analyzing the Changing Landscape of Creditors",
+    "text": "3.2 Analyzing the Changing Landscape of Creditors\nIDS data allows researchers to track shifts in the composition of creditors over time.\nExample: Cerutti, Obstfeld, and Zhou (2021) used IDS data to document the rise of non-Paris Club lenders, particularly China, in sovereign lending to developing countries. They found that these new creditors often lend on different terms than traditional creditors, potentially complicating debt restructuring efforts.\nPolicy relevance: Understanding the evolving creditor landscape is crucial for coordinating debt relief efforts and designing effective international financial architecture."
   },
   {
     "objectID": "ids_policy_relevant_qs.html#evaluating-the-impact-of-debt-relief-initiatives",
     "href": "ids_policy_relevant_qs.html#evaluating-the-impact-of-debt-relief-initiatives",
     "title": "3  Policy-Relevant Applications of IDS Data",
-    "section": "3.3 3. Evaluating the Impact of Debt Relief Initiatives",
-    "text": "3.3 3. Evaluating the Impact of Debt Relief Initiatives\nIDS data can be used to assess the effectiveness of international debt relief programs.\nExample: Cheng, Diaz-Cassou, and Erce (2018) used IDS data to evaluate the long-term effects of debt relief under the Heavily Indebted Poor Countries (HIPC) Initiative. They found that while HIPC reduced debt burdens, it had limited impact on economic growth in recipient countries.\nPolicy relevance: These analyses inform the design of future debt relief initiatives and help policymakers understand the long-term consequences of debt forgiveness."
+    "section": "3.3 Evaluating the Impact of Debt Relief Initiatives",
+    "text": "3.3 Evaluating the Impact of Debt Relief Initiatives\nIDS data can be used to assess the effectiveness of international debt relief programs.\nExample: Cheng, Diaz-Cassou, and Erce (2018) used IDS data to evaluate the long-term effects of debt relief under the Heavily Indebted Poor Countries (HIPC) Initiative. They found that while HIPC reduced debt burdens, it had limited impact on economic growth in recipient countries.\nPolicy relevance: These analyses inform the design of future debt relief initiatives and help policymakers understand the long-term consequences of debt forgiveness."
   },
   {
     "objectID": "ids_policy_relevant_qs.html#investigating-the-relationship-between-debt-and-development-outcomes",
     "href": "ids_policy_relevant_qs.html#investigating-the-relationship-between-debt-and-development-outcomes",
     "title": "3  Policy-Relevant Applications of IDS Data",
-    "section": "3.4 4. Investigating the Relationship Between Debt and Development Outcomes",
-    "text": "3.4 4. Investigating the Relationship Between Debt and Development Outcomes\nResearchers can combine IDS data with other development indicators to explore how debt levels relate to various economic and social outcomes.\nExample: Presbitero (2012) used IDS data in conjunction with education statistics to examine the relationship between public debt and investment in education in low-income countries. He found evidence that high debt service crowds out public education expenditure.\nPolicy relevance: Such studies help policymakers understand the trade-offs involved in debt accumulation and inform decisions about borrowing and public spending priorities."
+    "section": "3.4 Investigating the Relationship Between Debt and Development Outcomes",
+    "text": "3.4 Investigating the Relationship Between Debt and Development Outcomes\nResearchers can combine IDS data with other development indicators to explore how debt levels relate to various economic and social outcomes.\nExample: Presbitero (2012) used IDS data in conjunction with education statistics to examine the relationship between public debt and investment in education in low-income countries. He found evidence that high debt service crowds out public education expenditure.\nPolicy relevance: Such studies help policymakers understand the trade-offs involved in debt accumulation and inform decisions about borrowing and public spending priorities."
   },
   {
     "objectID": "ids_policy_relevant_qs.html#analyzing-debt-transparency-and-hidden-debts",
     "href": "ids_policy_relevant_qs.html#analyzing-debt-transparency-and-hidden-debts",
     "title": "3  Policy-Relevant Applications of IDS Data",
-    "section": "3.5 5. Analyzing Debt Transparency and Hidden Debts",
-    "text": "3.5 5. Analyzing Debt Transparency and Hidden Debts\nIDS data, particularly when combined with other sources, can shed light on issues of debt transparency.\nExample: Horn, Reinhart, and Trebesch (2019) compared IDS data with other sources to identify “hidden debts” in developing countries, particularly related to China’s Belt and Road Initiative. They estimated that about half of China’s overseas loans to developing countries may be “hidden”.\nPolicy relevance: These analyses are crucial for improving debt transparency, which is essential for accurate risk assessment and effective debt management."
+    "section": "3.5 Analyzing Debt Transparency and Hidden Debts",
+    "text": "3.5 Analyzing Debt Transparency and Hidden Debts\nIDS data, particularly when combined with other sources, can shed light on issues of debt transparency.\nExample: Horn, Reinhart, and Trebesch (2019) compared IDS data with other sources to identify “hidden debts” in developing countries, particularly related to China’s Belt and Road Initiative. They estimated that about half of China’s overseas loans to developing countries may be “hidden”.\nPolicy relevance: These analyses are crucial for improving debt transparency, which is essential for accurate risk assessment and effective debt management."
   },
   {
     "objectID": "ids_policy_relevant_qs.html#studying-the-cyclicality-of-sovereign-borrowing",
     "href": "ids_policy_relevant_qs.html#studying-the-cyclicality-of-sovereign-borrowing",
     "title": "3  Policy-Relevant Applications of IDS Data",
-    "section": "3.6 6. Studying the Cyclicality of Sovereign Borrowing",
-    "text": "3.6 6. Studying the Cyclicality of Sovereign Borrowing\nIDS data allows researchers to examine how countries’ borrowing patterns relate to economic cycles.\nExample: Panizza, Sturzenegger, and Zettelmeyer (2009) used IDS data to analyze the procyclicality of borrowing in developing countries. They found that many countries borrow more during good times, potentially exacerbating economic volatility.\nPolicy relevance: Understanding these patterns can help in designing countercyclical fiscal policies and improving macroeconomic stability."
+    "section": "3.6 Studying the Cyclicality of Sovereign Borrowing",
+    "text": "3.6 Studying the Cyclicality of Sovereign Borrowing\nIDS data allows researchers to examine how countries’ borrowing patterns relate to economic cycles.\nExample: Panizza, Sturzenegger, and Zettelmeyer (2009) used IDS data to analyze the procyclicality of borrowing in developing countries. They found that many countries borrow more during good times, potentially exacerbating economic volatility.\nPolicy relevance: Understanding these patterns can help in designing countercyclical fiscal policies and improving macroeconomic stability."
   },
   {
     "objectID": "ids_policy_relevant_qs.html#examining-the-effects-of-global-economic-shocks",
     "href": "ids_policy_relevant_qs.html#examining-the-effects-of-global-economic-shocks",
     "title": "3  Policy-Relevant Applications of IDS Data",
-    "section": "3.7 7. Examining the Effects of Global Economic Shocks",
-    "text": "3.7 7. Examining the Effects of Global Economic Shocks\nIDS data can be used to study how global economic events impact developing countries’ debt situations.\nExample: Kose et al. (2021) used IDS data to analyze the impact of the COVID-19 pandemic on debt in emerging market and developing economies. They found that the pandemic led to the largest single-year surge in global debt in decades.\nPolicy relevance: These analyses help policymakers understand and prepare for the impacts of global economic shocks on debt dynamics.\nIn conclusion, the IDS dataset is a versatile tool that enables researchers and policymakers to address a wide range of critical questions in international finance and development economics. By providing comprehensive, long-term data on external debt, it supports evidence-based policymaking and contributes to our understanding of global economic dynamics."
+    "section": "3.7 Examining the Effects of Global Economic Shocks",
+    "text": "3.7 Examining the Effects of Global Economic Shocks\nIDS data can be used to study how global economic events impact developing countries’ debt situations.\nExample: Kose et al. (2021) used IDS data to analyze the impact of the COVID-19 pandemic on debt in emerging market and developing economies. They found that the pandemic led to the largest single-year surge in global debt in decades.\nPolicy relevance: These analyses help policymakers understand and prepare for the impacts of global economic shocks on debt dynamics."
+  },
+  {
+    "objectID": "ids_policy_relevant_qs.html#conclusion",
+    "href": "ids_policy_relevant_qs.html#conclusion",
+    "title": "3  Policy-Relevant Applications of IDS Data",
+    "section": "3.8 Conclusion",
+    "text": "3.8 Conclusion\nIn conclusion, the IDS dataset is a versatile tool that enables researchers and policymakers to address a wide range of critical questions in international finance and development economics. By providing comprehensive, long-term data on external debt, it supports evidence-based policymaking and contributes to our understanding of global economic dynamics."
   },
   {
     "objectID": "ids_data_creation.html",
@@ -164,78 +171,78 @@
     "objectID": "ids_data_creation.html#the-debtor-reporting-system-drs",
     "href": "ids_data_creation.html#the-debtor-reporting-system-drs",
     "title": "4  The Journey of Debt Data - From Reporting to Release",
-    "section": "4.1 1. The Debtor Reporting System (DRS)",
-    "text": "4.1 1. The Debtor Reporting System (DRS)\nThe foundation of the IDS is the World Bank’s Debtor Reporting System (DRS), established in 1951.\n\n4.1.1 Key Features of the DRS:\n\nMandatory reporting requirement for all countries borrowing from the World Bank (IBRD or IDA)\nLoan-by-loan reporting for public and publicly guaranteed debt\nAggregate reporting for private non-guaranteed debt\nQuarterly reporting of new loan commitments\nAnnual reporting of debt stocks and flows\n\n\n\n4.1.2 Types of Data Collected:\n\nLoan terms (interest rates, maturity, grace period)\nCreditor information\nCurrency of repayment\nDisbursements\nPrincipal and interest payments\nDebt restructuring information"
+    "section": "4.1 The Debtor Reporting System (DRS)",
+    "text": "4.1 The Debtor Reporting System (DRS)\nThe foundation of the IDS is the World Bank’s Debtor Reporting System (DRS), established in 1951.\n\n4.1.1 Key Features of the DRS:\n\nMandatory reporting requirement for all countries borrowing from the World Bank (IBRD or IDA)\nLoan-by-loan reporting for public and publicly guaranteed debt\nAggregate reporting for private non-guaranteed debt\nQuarterly reporting of new loan commitments\nAnnual reporting of debt stocks and flows\n\n\n\n4.1.2 Types of Data Collected:\n\nLoan terms (interest rates, maturity, grace period)\nCreditor information\nCurrency of repayment\nDisbursements\nPrincipal and interest payments\nDebt restructuring information"
   },
   {
     "objectID": "ids_data_creation.html#data-submission-process",
     "href": "ids_data_creation.html#data-submission-process",
     "title": "4  The Journey of Debt Data - From Reporting to Release",
-    "section": "4.2 2. Data Submission Process",
-    "text": "4.2 2. Data Submission Process\nCountries typically follow these steps to submit data:\n\nData compilation by national debt management offices\nVerification and approval by relevant government authorities\nSubmission to the World Bank, usually via electronic templates\n\nFrequency: New commitments are reported quarterly, while stocks and flows are reported annually."
+    "section": "4.2 Data Submission Process",
+    "text": "4.2 Data Submission Process\nCountries typically follow these steps to submit data:\n\nData compilation by national debt management offices\nVerification and approval by relevant government authorities\nSubmission to the World Bank, usually via electronic templates\n\nFrequency: New commitments are reported quarterly, while stocks and flows are reported annually."
   },
   {
     "objectID": "ids_data_creation.html#data-validation-and-quality-control",
     "href": "ids_data_creation.html#data-validation-and-quality-control",
     "title": "4  The Journey of Debt Data - From Reporting to Release",
-    "section": "4.3 3. Data Validation and Quality Control",
-    "text": "4.3 3. Data Validation and Quality Control\nUpon receipt, World Bank staff perform several checks:\n\nConsistency checks: Ensuring data aligns with previous submissions\nCross-validation: Comparing with data from other sources (e.g., creditor reports, IMF data)\nFollow-up: Querying countries about discrepancies or unusual patterns\nHistorical reconciliation: Ensuring consistency of time series data"
+    "section": "4.3 Data Validation and Quality Control",
+    "text": "4.3 Data Validation and Quality Control\nUpon receipt, World Bank staff perform several checks:\n\nConsistency checks: Ensuring data aligns with previous submissions\nCross-validation: Comparing with data from other sources (e.g., creditor reports, IMF data)\nFollow-up: Querying countries about discrepancies or unusual patterns\nHistorical reconciliation: Ensuring consistency of time series data"
   },
   {
     "objectID": "ids_data_creation.html#data-enrichment",
     "href": "ids_data_creation.html#data-enrichment",
     "title": "4  The Journey of Debt Data - From Reporting to Release",
-    "section": "4.4 4. Data Enrichment",
-    "text": "4.4 4. Data Enrichment\nThe World Bank enhances the raw DRS data in several ways:\n\nAdding data on IMF lending and SDR allocations\nIncorporating short-term debt data from other sources (e.g., BIS, QEDS)\nEstimating missing data where necessary\nCalculating derived indicators (e.g., debt ratios)"
+    "section": "4.4 Data Enrichment",
+    "text": "4.4 Data Enrichment\nThe World Bank enhances the raw DRS data in several ways:\n\nAdding data on IMF lending and SDR allocations\nIncorporating short-term debt data from other sources (e.g., BIS, QEDS)\nEstimating missing data where necessary\nCalculating derived indicators (e.g., debt ratios)"
   },
   {
     "objectID": "ids_data_creation.html#integration-with-other-datasets",
     "href": "ids_data_creation.html#integration-with-other-datasets",
     "title": "4  The Journey of Debt Data - From Reporting to Release",
-    "section": "4.5 5. Integration with Other Datasets",
-    "text": "4.5 5. Integration with Other Datasets\nTo provide a comprehensive picture, IDS data is integrated with:\n\nWorld Bank national accounts data (for GNI, GDP)\nIMF Balance of Payments data (for exports, imports)\nWorld Bank Global Economic Monitor (for reserves data)"
+    "section": "4.5 Integration with Other Datasets",
+    "text": "4.5 Integration with Other Datasets\nTo provide a comprehensive picture, IDS data is integrated with:\n\nWorld Bank national accounts data (for GNI, GDP)\nIMF Balance of Payments data (for exports, imports)\nWorld Bank Global Economic Monitor (for reserves data)"
   },
   {
     "objectID": "ids_data_creation.html#aggregation-and-analysis",
     "href": "ids_data_creation.html#aggregation-and-analysis",
     "title": "4  The Journey of Debt Data - From Reporting to Release",
-    "section": "4.6 6. Aggregation and Analysis",
-    "text": "4.6 6. Aggregation and Analysis\nThe World Bank team then:\n\nProduces country-level aggregates\nCalculates regional and income group aggregates\nAnalyzes trends and patterns in the data\nPrepares analytical text and visualizations for the IDS report"
+    "section": "4.6 Aggregation and Analysis",
+    "text": "4.6 Aggregation and Analysis\nThe World Bank team then:\n\nProduces country-level aggregates\nCalculates regional and income group aggregates\nAnalyzes trends and patterns in the data\nPrepares analytical text and visualizations for the IDS report"
   },
   {
     "objectID": "ids_data_creation.html#review-and-verification",
     "href": "ids_data_creation.html#review-and-verification",
     "title": "4  The Journey of Debt Data - From Reporting to Release",
-    "section": "4.7 7. Review and Verification",
-    "text": "4.7 7. Review and Verification\nBefore publication, the data undergoes several rounds of review:\n\nInternal review by World Bank debt statisticians\nCross-departmental review within the World Bank\nReview by country authorities, who have the opportunity to comment on their data"
+    "section": "4.7 Review and Verification",
+    "text": "4.7 Review and Verification\nBefore publication, the data undergoes several rounds of review:\n\nInternal review by World Bank debt statisticians\nCross-departmental review within the World Bank\nReview by country authorities, who have the opportunity to comment on their data"
   },
   {
     "objectID": "ids_data_creation.html#publication-and-dissemination",
     "href": "ids_data_creation.html#publication-and-dissemination",
     "title": "4  The Journey of Debt Data - From Reporting to Release",
-    "section": "4.8 8. Publication and Dissemination",
-    "text": "4.8 8. Publication and Dissemination\nThe final steps in the process are:\n\nPreparation of the annual IDS report\nUpdating of the online IDS database\nCreation of data visualizations and other supplementary materials\nOfficial release, typically in October each year"
+    "section": "4.8 Publication and Dissemination",
+    "text": "4.8 Publication and Dissemination\nThe final steps in the process are:\n\nPreparation of the annual IDS report\nUpdating of the online IDS database\nCreation of data visualizations and other supplementary materials\nOfficial release, typically in October each year"
   },
   {
     "objectID": "ids_data_creation.html#ongoing-updates",
     "href": "ids_data_creation.html#ongoing-updates",
     "title": "4  The Journey of Debt Data - From Reporting to Release",
-    "section": "4.9 9. Ongoing Updates",
-    "text": "4.9 9. Ongoing Updates\nEven after publication, the process continues:\n\nData revisions are incorporated as countries provide updated information\nThe online database is refreshed periodically (typically December and April)"
+    "section": "4.9 Ongoing Updates",
+    "text": "4.9 Ongoing Updates\nEven after publication, the process continues:\n\nData revisions are incorporated as countries provide updated information\nThe online database is refreshed periodically (typically December and April)"
   },
   {
     "objectID": "ids_data_creation.html#challenges-in-the-process",
     "href": "ids_data_creation.html#challenges-in-the-process",
     "title": "4  The Journey of Debt Data - From Reporting to Release",
-    "section": "4.10 10. Challenges in the Process",
-    "text": "4.10 10. Challenges in the Process\nSeveral challenges can affect the data creation process:\n\nReporting delays or incomplete submissions from countries\nDifferences in accounting practices across countries\nDifficulties in capturing all forms of debt, especially newer instruments\nBalancing timeliness with comprehensiveness and accuracy"
+    "section": "4.10 Challenges in the Process",
+    "text": "4.10 Challenges in the Process\nSeveral challenges can affect the data creation process:\n\nReporting delays or incomplete submissions from countries\nDifferences in accounting practices across countries\nDifficulties in capturing all forms of debt, especially newer instruments\nBalancing timeliness with comprehensiveness and accuracy"
   },
   {
     "objectID": "ids_data_creation.html#recent-improvements",
     "href": "ids_data_creation.html#recent-improvements",
     "title": "4  The Journey of Debt Data - From Reporting to Release",
-    "section": "4.11 11. Recent Improvements",
-    "text": "4.11 11. Recent Improvements\nThe World Bank has made several enhancements to the process in recent years:\n\nIncreased emphasis on capturing previously unreported debts\nImproved coverage of debt to non-traditional creditors (e.g., China)\nEnhanced data on the terms of lending (e.g., collateralization)\nGreater integration with other debt databases (e.g., QEDS)\n\nUnderstanding this data creation process is crucial for users of the IDS. It helps in appreciating the strengths of the data, such as its comprehensive coverage and rigorous validation. At the same time, it highlights potential limitations, such as the reliance on self-reporting and the challenges in capturing all forms of debt. This knowledge allows for more informed and nuanced use of the IDS in research and policy analysis."
+    "section": "4.11 Recent Improvements",
+    "text": "4.11 Recent Improvements\nThe World Bank has made several enhancements to the process in recent years:\n\nIncreased emphasis on capturing previously unreported debts\nImproved coverage of debt to non-traditional creditors (e.g., China)\nEnhanced data on the terms of lending (e.g., collateralization)\nGreater integration with other debt databases (e.g., QEDS)\n\nUnderstanding this data creation process is crucial for users of the IDS. It helps in appreciating the strengths of the data, such as its comprehensive coverage and rigorous validation. At the same time, it highlights potential limitations, such as the reliance on self-reporting and the challenges in capturing all forms of debt. This knowledge allows for more informed and nuanced use of the IDS in research and policy analysis."
   },
   {
     "objectID": "ids_strengths_limitations.html",
@@ -249,14 +256,14 @@
     "href": "ids_strengths_limitations.html#strengths-of-the-ids",
     "title": "5  Strengths and Limitations of the International Debt Statistics",
     "section": "5.1 Strengths of the IDS",
-    "text": "5.1 Strengths of the IDS\n\n5.1.1 1. Comprehensive Coverage\n\nIncludes data from 121 low- and middle-income countries\nCovers both public and private external debt\nProvides long time series, often dating back to 1970\n\nSignificance: This broad coverage allows for robust cross-country comparisons and long-term trend analysis.\n\n\n5.1.2 2. Granularity\n\nLoan-by-loan data for public and publicly guaranteed debt\nDetailed breakdown by creditor type (multilateral, bilateral, private)\nInformation on debt instruments and terms\n\nSignificance: This level of detail enables nuanced analysis of debt composition and terms.\n\n\n5.1.3 3. Standardized Reporting\n\nUses internationally agreed definitions and methodologies\nAligns with other international statistical standards (e.g., Balance of Payments Manual)\n\nSignificance: Enhances comparability across countries and with other datasets.\n\n\n5.1.4 4. Regular Updates and Quality Control\n\nAnnual updates with interim revisions\nRigorous validation process involving cross-checks with other sources\n\nSignificance: Improves data reliability and allows for timely analysis.\n\n\n5.1.5 5. Integration with Other Economic Indicators\n\nIncludes related economic data (e.g., GNI, exports)\nProvides calculated debt ratios\n\nSignificance: Facilitates comprehensive debt sustainability analysis."
+    "text": "5.1 Strengths of the IDS\n\n5.1.1 Comprehensive Coverage\n\nIncludes data from 121 low- and middle-income countries\nCovers both public and private external debt\nProvides long time series, often dating back to 1970\n\nSignificance: This broad coverage allows for robust cross-country comparisons and long-term trend analysis.\n\n\n5.1.2 Granularity\n\nLoan-by-loan data for public and publicly guaranteed debt\nDetailed breakdown by creditor type (multilateral, bilateral, private)\nInformation on debt instruments and terms\n\nSignificance: This level of detail enables nuanced analysis of debt composition and terms.\n\n\n5.1.3 Standardized Reporting\n\nUses internationally agreed definitions and methodologies\nAligns with other international statistical standards (e.g., Balance of Payments Manual)\n\nSignificance: Enhances comparability across countries and with other datasets.\n\n\n5.1.4 Regular Updates and Quality Control\n\nAnnual updates with interim revisions\nRigorous validation process involving cross-checks with other sources\n\nSignificance: Improves data reliability and allows for timely analysis.\n\n\n5.1.5 Integration with Other Economic Indicators\n\nIncludes related economic data (e.g., GNI, exports)\nProvides calculated debt ratios\n\nSignificance: Facilitates comprehensive debt sustainability analysis."
   },
   {
     "objectID": "ids_strengths_limitations.html#limitations-and-caveats",
     "href": "ids_strengths_limitations.html#limitations-and-caveats",
     "title": "5  Strengths and Limitations of the International Debt Statistics",
     "section": "5.2 Limitations and Caveats",
-    "text": "5.2 Limitations and Caveats\n\n5.2.1 1. Reliance on Self-Reporting\n\nData primarily comes from country authorities\nQuality depends on countries’ capacity and willingness to report accurately\n\nCaveat: There may be inconsistencies or gaps in reporting across countries.\n\n\n5.2.2 2. Incomplete Coverage of Private Non-Guaranteed Debt\n\nRelies on aggregate reporting, which may be less comprehensive\nSome countries have limited capacity to track private sector borrowing\n\nCaveat: Total external debt may be underestimated, particularly for countries with large private sectors.\n\n\n5.2.3 3. Limited Coverage of Domestic Debt\n\nFocuses primarily on external debt\nDomestic debt is not systematically included\n\nCaveat: May not provide a complete picture of a country’s total public debt burden.\n\n\n5.2.4 4. Challenges in Capturing New Debt Instruments\n\nMay not fully reflect newer forms of debt (e.g., certain types of collateralized lending)\nCan lag in incorporating innovative financing structures\n\nCaveat: Could underestimate total debt or miss important features of a country’s debt profile.\n\n\n5.2.5 5. Difficulty in Capturing ‘Hidden’ Debt\n\nRelies on officially reported data\nMay not capture off-balance-sheet liabilities or certain contingent liabilities\n\nCaveat: Actual debt burdens could be higher than reported, especially in countries with less transparent fiscal practices.\n\n\n5.2.6 6. Time Lag in Reporting\n\nAnnual data typically released with a 9-10 month lag\nSome countries may have longer reporting delays\n\nCaveat: May not reflect the most current debt situation, particularly in rapidly changing economic environments.\n\n\n5.2.7 7. Challenges with Exchange Rate Conversions\n\nDebt reported in US dollars, requiring conversion from original currencies\nExchange rate fluctuations can affect reported debt levels\n\nCaveat: Changes in reported debt stock may reflect currency movements rather than actual borrowing or repayment.\n\n\n5.2.8 8. Inconsistencies in Creditor Classification\n\nClassification of creditors can be complex, especially for non-traditional lenders\nCountries may classify similar creditors differently\n\nCaveat: Creditor composition analysis should be approached with caution, particularly for cross-country comparisons.\n\n\n5.2.9 9. Limited Information on Debt Terms\n\nWhile basic terms are reported, full details of debt contracts are not always available\nInformation on collateral and other specific conditions may be limited\n\nCaveat: May not capture the full risk profile associated with certain debt obligations."
+    "text": "5.2 Limitations and Caveats\n\n5.2.1 Reliance on Self-Reporting\n\nData primarily comes from country authorities\nQuality depends on countries’ capacity and willingness to report accurately\n\nCaveat: There may be inconsistencies or gaps in reporting across countries.\n\n\n5.2.2 Incomplete Coverage of Private Non-Guaranteed Debt\n\nRelies on aggregate reporting, which may be less comprehensive\nSome countries have limited capacity to track private sector borrowing\n\nCaveat: Total external debt may be underestimated, particularly for countries with large private sectors.\n\n\n5.2.3 Limited Coverage of Domestic Debt\n\nFocuses primarily on external debt\nDomestic debt is not systematically included\n\nCaveat: May not provide a complete picture of a country’s total public debt burden.\n\n\n5.2.4 Challenges in Capturing New Debt Instruments\n\nMay not fully reflect newer forms of debt (e.g., certain types of collateralized lending)\nCan lag in incorporating innovative financing structures\n\nCaveat: Could underestimate total debt or miss important features of a country’s debt profile.\n\n\n5.2.5 Difficulty in Capturing ‘Hidden’ Debt\n\nRelies on officially reported data\nMay not capture off-balance-sheet liabilities or certain contingent liabilities\n\nCaveat: Actual debt burdens could be higher than reported, especially in countries with less transparent fiscal practices.\n\n\n5.2.6 Time Lag in Reporting\n\nAnnual data typically released with a 9-10 month lag\nSome countries may have longer reporting delays\n\nCaveat: May not reflect the most current debt situation, particularly in rapidly changing economic environments.\n\n\n5.2.7 Challenges with Exchange Rate Conversions\n\nDebt reported in US dollars, requiring conversion from original currencies\nExchange rate fluctuations can affect reported debt levels\n\nCaveat: Changes in reported debt stock may reflect currency movements rather than actual borrowing or repayment.\n\n\n5.2.8 Inconsistencies in Creditor Classification\n\nClassification of creditors can be complex, especially for non-traditional lenders\nCountries may classify similar creditors differently\n\nCaveat: Creditor composition analysis should be approached with caution, particularly for cross-country comparisons.\n\n\n5.2.9 Limited Information on Debt Terms\n\nWhile basic terms are reported, full details of debt contracts are not always available\nInformation on collateral and other specific conditions may be limited\n\nCaveat: May not capture the full risk profile associated with certain debt obligations."
   },
   {
     "objectID": "ids_strengths_limitations.html#implications-for-users",
