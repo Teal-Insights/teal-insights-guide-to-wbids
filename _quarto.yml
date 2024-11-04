@@ -9,18 +9,18 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - part: part1_foundations.qmd
+    - part: part1-foundations.qmd
       chapters: 
-        - ids_overview.qmd 
-        - ids_policy_relevant_qs.qmd
-        - ids_data_creation.qmd
-        - ids_strengths_limitations.qmd
-    - part: part2_wbids.qmd
+        - ids-overview.qmd 
+        - ids-policy-relevant-qs.qmd
+        - ids-data-creation.qmd
+        - ids-strengths-limitations.qmd
+    - part: part2-wbids.qmd
       chapters: 
-        - wbids_getting_started.qmd
-        - wbids_common_workflows.qmd
-        - wbids_integrating_data.qmd
-    - part: part3_wrapping_up.qmd
+        - wbids-getting-started.qmd
+        - wbids-common-workflows.qmd
+        - wbids-integrating-data.qmd
+    - part: part3-wrapping-up.qmd
       chapters: 
         - summary.qmd
         - references.qmd
