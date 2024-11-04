@@ -4,49 +4,70 @@
     "href": "index.html",
     "title": "Teal Insights’ Guide to Working with the World Bank International Debt Statistics",
     "section": "",
-    "text": "This guide is designed to serve as a comprehensive resource for understanding and utilizing the World Bank’s International Debt Statistics (IDS). It is structured to fulfill two primary objectives, each aimed at enhancing the reader’s capacity to work effectively with this critical dataset.\n\n\n\n\n\n\nWork in Progress\n\n\n\nThis book is an active project, evolving in real-time. We’re embracing an open development process, building it publicly using R & Quarto. All code, content, and revisions are available on GitHub for transparency and collaboration.\nWe’ve chosen this approach to engage with our readers, stakeholders, and the broader community as we develop both the book and the {wbids} R package. Your feedback is not just welcome – it’s essential to making this resource as useful as possible.\nFeel free to follow our progress, suggest improvements, or even contribute directly through our GitHub repository. We’re excited to build this resource with input from its future users!\n\n\n\n\nThe initial section of this book is dedicated to providing readers with the necessary background to become informed consumers of IDS data. It encompasses:\n\nA detailed overview of the data available within the IDS, including its scope, structure, and key variables.\nAn exploration of the types of policy-relevant questions that can be addressed using IDS data, with illustrative examples from recent economic research and policy analysis.\nA thorough examination of the data creation process, from initial reporting through the Debtor Reporting System (DRS) to the final compilation and release of the IDS.\nA critical discussion of the strengths and limitations inherent in the IDS dataset, enabling readers to approach the data with appropriate context and caveats.\n\nThis section aims to equip readers with a nuanced understanding of the IDS, ensuring they can interpret and apply the data with confidence and accuracy.\n\n\n\nThe second section of this book focuses on practical application, introducing readers to the {wbids} R package. This tool has been developed to facilitate efficient analysis of IDS data within the R programming environment. This section covers:\n\nDetailed instructions for accessing and manipulating IDS data using the {wbids} package.\nTutorials on conducting common analytical tasks and creating informative visualizations.\nGuidance on integrating IDS data with other relevant datasets to produce more comprehensive analyses.\n\nThis practical component is designed to cater to R users of varying experience levels, providing a pathway to enhanced analytical capabilities in working with IDS data.\n\n\n\nThis guide has been developed by Teal Insights, a research consultancy specializing in the application of modern data science tools and deep domain expertise to tackle global issues. Teal Insights extracts actionable insights from complex information and messy data. Our work primarily serves policymakers, investors, and non-governmental organizations, with a focus on international finance, sustainability, and policy analysis.\nTeal Insights’ approach combines modern data science tooling with deep domain expertise about financial markets, global economics, and sustainability. By developing open-source tools such as the {wbids} R package and resources like this guide, we aim to broaden access to critical datasets and empower a diverse audience to engage in sophisticated analysis and informed decision-making.\nIt is our hope that this guide will not only enhance readers’ understanding and utilization of the IDS data but also inspire innovative approaches to leveraging data for impactful research and decision-making in the fields of international finance and development.\nWe invite you to explore the wealth of information contained within the International Debt Statistics and to discover new insights through its analysis.\n\n\n\n\n\n\nThis is a product of Teal Insights, not the World Bank\n\n\n\nThis book and the accompanying {wbids} R package are products of Teal Insights. While they are designed to work with the World Bank’s International Debt Statistics, they are independent creations and are not produced, endorsed, or officially supported by the World Bank Group. The authors have experience working with the World Bank as consultants, but this work is separate from those engagements. Users should be aware that while we strive for accuracy, the World Bank is the authoritative source for its data and any interpretations thereof."
+    "text": "Preface\nThis guide is designed to serve as a comprehensive resource for understanding and utilizing the World Bank’s International Debt Statistics (IDS). It is structured to fulfill two primary objectives, each aimed at enhancing the reader’s capacity to work effectively with this critical dataset.",
+    "crumbs": [
+      "Preface"
+    ]
   },
   {
     "objectID": "intro.html",
     "href": "intro.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "The World Bank’s International Debt Statistics (IDS) is a comprehensive resource for understanding external debt in low- and middle-income countries. This guide will introduce you to the IDS dataset and demonstrate how the {wbids} R package can help you leverage this valuable information."
+    "text": "1.1 Introduction to the International Debt Statistics\nThe World Bank’s International Debt Statistics (IDS) is a comprehensive resource for understanding external debt in low- and middle-income countries. This guide will introduce you to the IDS dataset and demonstrate how the {wbids} R package can help you leverage this valuable information.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
   },
   {
     "objectID": "intro.html#what-is-the-international-debt-statistics",
     "href": "intro.html#what-is-the-international-debt-statistics",
     "title": "1  Introduction",
     "section": "1.2 What is the International Debt Statistics?",
-    "text": "1.2 What is the International Debt Statistics?\nThe IDS is the most authoritative and comprehensive publicly available database on the external debt of low- and middle-income countries. It provides a detailed view of debt stocks, flows, and key debt ratios, offering unparalleled insights into the financial health of developing economies."
+    "text": "1.2 What is the International Debt Statistics?\nThe IDS is the most authoritative and comprehensive publicly available database on the external debt of low- and middle-income countries. It provides a detailed view of debt stocks, flows, and key debt ratios, offering unparalleled insights into the financial health of developing economies.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
   },
   {
     "objectID": "intro.html#origins-and-development",
     "href": "intro.html#origins-and-development",
     "title": "1  Introduction",
     "section": "1.3 Origins and Development",
-    "text": "1.3 Origins and Development\nThe World Bank has been meticulously collecting this data since the 1950s. The information is gathered primarily from debtor countries through the World Bank’s Debtor Reporting System (DRS), supplemented with data from creditors and market sources. This long-standing effort ensures a rich historical perspective on debt trends."
+    "text": "1.3 Origins and Development\nThe World Bank has been meticulously collecting this data since the 1950s. The information is gathered primarily from debtor countries through the World Bank’s Debtor Reporting System (DRS), supplemented with data from creditors and market sources. This long-standing effort ensures a rich historical perspective on debt trends.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
   },
   {
     "objectID": "intro.html#accessibility-and-updates",
     "href": "intro.html#accessibility-and-updates",
     "title": "1  Introduction",
     "section": "1.4 Accessibility and Updates",
-    "text": "1.4 Accessibility and Updates\nThe IDS is updated annually, typically in December, and is freely accessible through the World Bank’s website. The {wbids} R package streamlines the process of working with this extensive dataset, making complex analyses more accessible to researchers and practitioners."
+    "text": "1.4 Accessibility and Updates\nThe IDS is updated annually, typically in December, and is freely accessible through the World Bank’s website. The {wbids} R package streamlines the process of working with this extensive dataset, making complex analyses more accessible to researchers and practitioners.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
   },
   {
     "objectID": "intro.html#significance-for-stakeholders",
     "href": "intro.html#significance-for-stakeholders",
     "title": "1  Introduction",
     "section": "1.5 Significance for Stakeholders",
-    "text": "1.5 Significance for Stakeholders\nThe IDS is a valuable resource for a wide range of professionals, including:\n\nEmerging market investors\nInternational financial institution economists\nFinance ministry officials\nAcademic researchers\nPolicymakers in both debtor and creditor countries\n\nIt provides crucial data for assessing debt sustainability, informing policy decisions, and understanding global financial flows."
+    "text": "1.5 Significance for Stakeholders\nThe IDS is a valuable resource for a wide range of professionals, including:\n\nEmerging market investors\nInternational financial institution economists\nFinance ministry officials\nAcademic researchers\nPolicymakers in both debtor and creditor countries\n\nIt provides crucial data for assessing debt sustainability, informing policy decisions, and understanding global financial flows.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
   },
   {
     "objectID": "intro.html#key-insights-enabled-by-ids-data",
     "href": "intro.html#key-insights-enabled-by-ids-data",
     "title": "1  Introduction",
     "section": "1.6 Key Insights Enabled by IDS Data",
-    "text": "1.6 Key Insights Enabled by IDS Data\nThe IDS dataset allows for a range of important analyses. Here are some examples of the insights you can gain:\n\nEvolution of Creditor Composition: The IDS provides detailed breakdowns of debt by creditor type (bilateral, multilateral, private). This allows you to track the rise of new creditors, such as China, and analyze how the creditor landscape has shifted over time.\nComprehensive Debt Picture: By including data on both public and publicly guaranteed debt as well as private non-guaranteed debt, the IDS enables a more complete assessment of a country’s external liabilities. This comprehensive view can reveal potential hidden risks, such as the debts of state-owned enterprises.\nMarket Access Trends: The IDS includes data on bond issuances, allowing you to track how low- and middle-income countries’ access to international capital markets has evolved. This can provide insights into changing financing strategies and risk profiles.\nInterest Rate Risk Exposure: The dataset provides information on the composition of debt in terms of interest rate structure (fixed vs. variable). This allows for analysis of countries’ vulnerability to global interest rate fluctuations.\nDebt Service Burden Analysis: By combining data on debt stocks, debt service, exports, and GNI, the IDS enables the calculation of key debt burden indicators. This allows for assessment of how debt service requirements compare to a country’s economic output and ability to generate foreign exchange.\n\nThrough our R package, you’ll be able to easily access and analyze these aspects of the IDS data, unlocking valuable insights into the complex world of international debt. In the following sections, we’ll guide you through how to use the package to explore these dimensions and more."
+    "text": "1.6 Key Insights Enabled by IDS Data\nThe IDS dataset allows for a range of important analyses. Here are some examples of the insights you can gain:\n\nEvolution of Creditor Composition: The IDS provides detailed breakdowns of debt by creditor type (bilateral, multilateral, private). This allows you to track the rise of new creditors, such as China, and analyze how the creditor landscape has shifted over time.\nComprehensive Debt Picture: By including data on both public and publicly guaranteed debt as well as private non-guaranteed debt, the IDS enables a more complete assessment of a country’s external liabilities. This comprehensive view can reveal potential hidden risks, such as the debts of state-owned enterprises.\nMarket Access Trends: The IDS includes data on bond issuances, allowing you to track how low- and middle-income countries’ access to international capital markets has evolved. This can provide insights into changing financing strategies and risk profiles.\nInterest Rate Risk Exposure: The dataset provides information on the composition of debt in terms of interest rate structure (fixed vs. variable). This allows for analysis of countries’ vulnerability to global interest rate fluctuations.\nDebt Service Burden Analysis: By combining data on debt stocks, debt service, exports, and GNI, the IDS enables the calculation of key debt burden indicators. This allows for assessment of how debt service requirements compare to a country’s economic output and ability to generate foreign exchange.\n\nThrough our R package, you’ll be able to easily access and analyze these aspects of the IDS data, unlocking valuable insights into the complex world of international debt. In the following sections, we’ll guide you through how to use the package to explore these dimensions and more.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
   },
   {
     "objectID": "part1_foundations.html",
@@ -277,6 +298,50 @@
     "href": "summary.html",
     "title": "9  Summary",
     "section": "",
-    "text": "Show the code\n1 + 1\n\n\n[1] 2"
+    "text": "In summary, this book has no content whatsoever.\n\n\nShow the code\n1 + 1\n\n\n[1] 2",
+    "crumbs": [
+      "Part 3: Wrapping Up",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#part-one-foundations-of-ids-data",
+    "href": "index.html#part-one-foundations-of-ids-data",
+    "title": "Teal Insights’ Guide to Working with the World Bank International Debt Statistics",
+    "section": "Part One: Foundations of IDS Data",
+    "text": "Part One: Foundations of IDS Data\nThe initial section of this book is dedicated to providing readers with the necessary background to become informed consumers of IDS data. It encompasses:\n\nA detailed overview of the data available within the IDS, including its scope, structure, and key variables.\nAn exploration of the types of policy-relevant questions that can be addressed using IDS data, with illustrative examples from recent economic research and policy analysis.\nA thorough examination of the data creation process, from initial reporting through the Debtor Reporting System (DRS) to the final compilation and release of the IDS.\nA critical discussion of the strengths and limitations inherent in the IDS dataset, enabling readers to approach the data with appropriate context and caveats.\n\nThis section aims to equip readers with a nuanced understanding of the IDS, ensuring they can interpret and apply the data with confidence and accuracy.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#part-two-applied-analysis-with-the-wbids-r-package",
+    "href": "index.html#part-two-applied-analysis-with-the-wbids-r-package",
+    "title": "Teal Insights’ Guide to Working with the World Bank International Debt Statistics",
+    "section": "Part Two: Applied Analysis with the {wbids} R Package",
+    "text": "Part Two: Applied Analysis with the {wbids} R Package\nThe second section of this book focuses on practical application, introducing readers to the {wbids} R package. This tool has been developed to facilitate efficient analysis of IDS data within the R programming environment. This section covers:\n\nDetailed instructions for accessing and manipulating IDS data using the {wbids} package.\nTutorials on conducting common analytical tasks and creating informative visualizations.\nGuidance on integrating IDS data with other relevant datasets to produce more comprehensive analyses.\n\nThis practical component is designed to cater to R users of varying experience levels, providing a pathway to enhanced analytical capabilities in working with IDS data.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#about-teal-insights",
+    "href": "index.html#about-teal-insights",
+    "title": "Teal Insights’ Guide to Working with the World Bank International Debt Statistics",
+    "section": "About Teal Insights",
+    "text": "About Teal Insights\nThis guide has been developed by Teal Insights, a research consultancy specializing in the application of modern data science tools and deep domain expertise to tackle global issues. Teal Insights extracts actionable insights from complex information and messy data. Our work primarily serves policymakers, investors, and non-governmental organizations, with a focus on international finance, sustainability, and policy analysis.\nTeal Insights’ approach combines modern data science tooling with deep domain expertise about financial markets, global economics, and sustainability. By developing open-source tools such as the {wbids} R package and resources like this guide, we aim to broaden access to critical datasets and empower a diverse audience to engage in sophisticated analysis and informed decision-making.\nIt is our hope that this guide will not only enhance readers’ understanding and utilization of the IDS data but also inspire innovative approaches to leveraging data for impactful research and decision-making in the fields of international finance and development.\nWe invite you to explore the wealth of information contained within the International Debt Statistics and to discover new insights through its analysis.\n\n\n\n\n\n\nThis is a product of Teal Insights, not the World Bank\n\n\n\nThis book and the accompanying {wbids} R package are products of Teal Insights. While they are designed to work with the World Bank’s International Debt Statistics, they are independent creations and are not produced, endorsed, or officially supported by the World Bank Group. The authors have experience working with the World Bank as consultants, but this work is separate from those engagements. Users should be aware that while we strive for accuracy, the World Bank is the authoritative source for its data and any interpretations thereof.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "part1-foundations.html",
+    "href": "part1-foundations.html",
+    "title": "Part 1: Foundations of IDS Data",
+    "section": "",
+    "text": "The initial section of this book is dedicated to providing readers with the necessary background to become informed consumers of IDS data. It encompasses:\n\nA detailed overview of the data available within the IDS, including its scope, structure, and key variables.\nAn exploration of the types of policy-relevant questions that can be addressed using IDS data, with illustrative examples from recent economic research and policy analysis.\nA thorough examination of the data creation process, from initial reporting through the Debtor Reporting System (DRS) to the final compilation and release of the IDS.\nA critical discussion of the strengths and limitations inherent in the IDS dataset, enabling readers to approach the data with appropriate context and caveats.\n\nThis section aims to equip readers with a nuanced understanding of the IDS, ensuring they can interpret and apply the data with confidence and accuracy.",
+    "crumbs": [
+      "Part 1: Foundations of IDS Data"
+    ]
   }
 ]

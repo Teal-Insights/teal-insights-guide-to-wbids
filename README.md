@@ -1,1 +1,1 @@
-# teal_insights_guide_to_wbids
+# teal-insights-guide-to-wbids
